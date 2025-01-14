@@ -19,14 +19,39 @@
 
 // TODO: Create squareNum
 
+void squareNum (int n)
+    {
+
+   std::cout << "The square of " << n << " is " << (n*n) << std::endl;
+
+    }  
+
+
 // TODO: Create distance
+
+
+void distance (double x, double y)
+ {
+   double dist = abs (x-y);
+   std::cout << "The distance between " << x << "and " << y << " is " << dist << std::endl;
+ }
+
 
 // TODO: Create rollDice
 
+
+   void rollDice()
+     {
+        int randomNumber = rand() % 6 +1;
+        std::cout << "You rolled a " << randomNumber << std::endl;
+     }
+
 int main()
 {
-    // You can follow along with any code in class here
+    srand(time(0));
+   rollDice();
+   rollDice();
 
-    
+
     return 0;
 }

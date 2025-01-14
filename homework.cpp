@@ -11,9 +11,33 @@
 #include <string>    // std::string, std::getline
 #include <vector>    // std::vector
 
+
+
+void compare(int n1, int n2)
+{
+    if (n1 > n2)
+    {
+        std::cout << n1 << "is greater than " << n2 << std::endl;
+    }
+    else
+    if 
+}
+
 int main()
 {
     // Complete your homework here
+ //task 1
+
+
+
+
+
+
+
+
+
+
+
 
     
     return 0;
